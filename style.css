@@ -367,6 +367,11 @@ header .logo a h1 span {
   bottom: 0%;
 }
 
+#galeri .vidio iframe{
+  margin-bottom: 10rem;
+  margin-top: 10rem;
+}
+
 #maps {
   text-align: center;
   font-size: 4rem;
@@ -390,143 +395,24 @@ header .logo a h1 span {
   align-content: center;
 }
 
-#maps .content {
-  width: 100vw;
+
+#contact {
+  text-align: center;
+  font-size: 4rem;
+  margin: 10rem 0;
 }
 
-#maps .content p {
-  margin-top: -8rem;
-  margin-bottom: 20rem;
+#contact .content h1 {
+  align-items: center;
+  font-size: 4rem;
+  margin: 5rem 0;
+  color: #E6022D;
+}
+
+#contact .content p {
   font-size: 1.5rem;
   padding-right: 6rem;
   padding-left: 6rem;
-}
-
-
-#contact {
-  height: 100vh;
-  width: 100vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
-  overflow: hidden;
-  background: url(back-img.jpg), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7)));
-  background: url(back-img.jpg), linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-blend-mode: multiply;
-}
-
-#contact form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-flow: column;
-  flex-flow: column;
-}
-
-#contact form h1 {
-  color: #E6022D;
-  font-size: 4rem;
-}
-
-#contact form input {
-  height: 4rem;
-  background: transparent;
-  margin: 2rem 0;
-  padding: 0 1rem;
-  border: 0.2rem solid #E6022D;
-  outline: none;
-  color: #fff;
-  font-weight: bold;
-  width: 40vw;
-}
-
-#contact form input::-webkit-input-placeholder {
-  color: #ccc;
-}
-
-#contact form input:-ms-input-placeholder {
-  color: #ccc;
-}
-
-#contact form input::-ms-input-placeholder {
-  color: #ccc;
-}
-
-#contact form input::placeholder {
-  color: #ccc;
-}
-
-#contact form input:focus {
-  background: #E6022D;
-}
-
-#contact form input[type="submit"] {
-  height: 4rem;
-  width: 14rem;
-  background: transparent;
-  border: 0.2rem solid #E6022D;
-  outline: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-  color: #E6022D;
-  font-weight: bold;
-  background: #E6022D;
-  color: #fff;
-}
-
-#contact form input[type="submit"]:hover {
-  background: #E6022D;
-  color: #fff;
-}
-
-#contact form input[type="submit"]:hover {
-  background: transparent;
-}
-
-#contact form textarea {
-  resize: none;
-  background: transparent;
-  outline: none;
-  padding: 1rem;
-  color: #fff;
-  border: 0.2rem solid #E6022D;
-  font-weight: bold;
-}
-
-#contact form textarea::-webkit-input-placeholder {
-  color: #ccc;
-}
-
-#contact form textarea:-ms-input-placeholder {
-  color: #ccc;
-}
-
-#contact form textarea::-ms-input-placeholder {
-  color: #ccc;
-}
-
-#contact form textarea::placeholder {
-  color: #ccc;
-}
-
-#contact form textarea:focus {
-  background: #E6022D;
-}
-
-#contact .image img {
-  height: 50vh;
-  width: 30vw;
 }
 
 #footer {
